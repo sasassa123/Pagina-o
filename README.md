@@ -2,9 +2,12 @@
 LRU/FIFO/MRU
 
 FIFO:
+
+
 Remove a página que está há mais tempo na memória.
 
 Funcionamento:
+
 
 -Segue o princípio básico de uma fila convencional
 
@@ -26,9 +29,13 @@ Explicação do código:
 
 
 LRU:
+
+
 Remove a página que não é acessada há mais tempo.
 
 Funcionamento:
+
+
 -Mantém um registro da ordem de acesso das páginas
 
 -Páginas acessadas recentemente são consideradas "mais importantes"
@@ -50,9 +57,12 @@ Explicação do código:
 
 
 MRU:
+
 Remove a página que foi acessada mais recentemente.
 
 Funcionamento:
+
+
 
 -Baseia-se na ideia de que páginas recentemente usadas podem não ser necessárias novamente em breve
 
